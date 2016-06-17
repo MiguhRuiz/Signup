@@ -1,0 +1,24 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+  link(rel='shortcut icon', type='image/x-icon', href='./public/images/favicon.png')
+  link(rel='stylesheet', href='/css/index.css')
+  title Better Code
+body
+  header
+    .logo
+      img.logo-img(src='/images/logo.png', alt='Better Code')
+  .app
+    form.signup-form(action='', onsubmit="registerEmail()")
+      input.input-email(type='email', name='input-email', placeholder='Deja aqui tu email')
+      button.btn.waves-effect.waves-light(type='submit', name='action') Enviar
+
+  footer.site-footer
+    .social-networks
+      a.facebook(href='https://www.facebook.com/BetterCodeHQ')
+        img.facebook-icon(src='/images/facebook.png', alt='')
+      a.twitter(href='https://twitter.com/BetterCodeHQ')
+        img.twitter-icon(src='/images/twitter.png', alt='')
+
+//- script(type="application/javascript", src="/js/bundle.js")
