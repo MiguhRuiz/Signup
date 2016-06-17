@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/MiguhRuiz/Signup#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.1",
+    "express": "^4.14.0",
+    "mailchimp": "^1.2.0",
+    "mailchimp-v3": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
