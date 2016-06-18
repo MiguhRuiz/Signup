@@ -1,10 +1,14 @@
 # Better Code - Invitation System(2016 Edition)
 
 ## Install all the dependencies
-> npm Install
+```bash
+$ npm install
+```
 
 ## Load the server
-> npm start
+```bash
+$ npm start
+```
 
 ## License MIT
 
