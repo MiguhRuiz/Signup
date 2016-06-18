@@ -1,4 +1,4 @@
 require('babel-polyfill')
 
-alert('Test')
-require('./ga')
+require('./email')
+// require('./ga')

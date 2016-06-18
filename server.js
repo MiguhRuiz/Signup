@@ -21,6 +21,7 @@ app.get("/", (req, res) => {
 app.post("/new-email", (req, res) => {
   mail.lists.subscribe({id: config.mailchimp.listid, email: {email: req.body.email}}, function (data) {
     console.log(data)
+    res.send(200)
   }), function (error) { if(error != []){ console.log(error) } }
 })
 

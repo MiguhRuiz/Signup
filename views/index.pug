@@ -10,9 +10,9 @@ body
     .logo
       img.logo-img(src='/images/logo.png', alt='Better Code')
   .app
-    form.signup-form(action='', onsubmit="registerEmail()")
-      input.input-email(type='email', name='input-email', placeholder='Deja aqui tu email')
-      button.btn.waves-effect.waves-light(type='submit', name='action') Enviar
+    form.signup-form(action='')
+      input.input-email#email(type='email', name='input-email', placeholder='Deja aqui tu email')
+      button.btn.waves-effect.waves-light#btn(type='submit', name='action') Enviar
 
   footer.site-footer
     .social-networks
@@ -21,4 +21,4 @@ body
       a.twitter(href='https://twitter.com/BetterCodeHQ')
         img.twitter-icon(src='/images/twitter.png', alt='')
 
-//- script(type="application/javascript", src="/js/bundle.js")
+script(type="application/javascript", src="/js/bundle.js")
