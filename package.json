@@ -20,8 +20,7 @@
   "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.14.0",
-    "mailchimp": "^1.2.0",
-    "mailchimp-v3": "^1.0.1"
+    "mailchimp": "^1.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
@@ -30,7 +29,6 @@
     "babel-register": "^6.9.0",
     "babelify": "^7.3.0",
     "browserify": "^13.0.1",
-    "jquery": "^3.0.0",
-    "yo-yo": "^1.2.1"
+    "jquery": "^3.0.0"
   }
 }
