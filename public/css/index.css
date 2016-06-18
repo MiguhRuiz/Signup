@@ -53,6 +53,12 @@ header {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   width: 150px;
 }
+.btn-fail {
+  background-color: #580404;
+}
+.btn-success {
+  background-color: #045812;
+}
 
 input {
   background-color: transparent;

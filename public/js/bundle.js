@@ -16946,8 +16946,10 @@ function addEmail() {
     data: { "email": email }
   }).done(function () {
     alert('We did it. Check your email C:');
+    (0, _jquery2.default)(b).addClass('btn-success');
   }).catch(function (err) {
     alert('There was an error. Try it again :C');
+    (0, _jquery2.default)(b).addClass('btn-fail');
   });
 }
 

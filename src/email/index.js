@@ -13,9 +13,11 @@ function addEmail() {
   })
     .done(function () {
       alert('We did it. Check your email C:')
+      $(b).addClass( 'btn-success' )
     })
     .catch(function (err) {
       alert('There was an error. Try it again :C')
+      $(b).addClass( 'btn-fail' )
     })
 }
 
